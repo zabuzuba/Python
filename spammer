@@ -1,0 +1,8 @@
+import pyautogui
+import time
+time.sleep(1)
+count = 0
+while count<=1:
+    pyautogui.typewrite("go n study")
+    pyautogui.press("enter")
+    count = count+1
